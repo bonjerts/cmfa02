@@ -64,17 +64,18 @@ proxies:
   - name: AKUN3
     server: 104.17.3.81
     port: 443
-    type: vless
-    uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+    type: vmess
+    uuid: VPNstunnel-vpnstunnel-admin
+    alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: bonjert.bonjert86.workers.dev
+    servername: wcvl.gyava.me
     network: ws
     ws-opts:
-      path: /43.218.77.16-1443
+      path: /vmess
       headers:
-        Host: bonjert.bonjert86.workers.dev
+        Host: wcvl.gyava.me
     udp: true
 
 proxy-groups:
